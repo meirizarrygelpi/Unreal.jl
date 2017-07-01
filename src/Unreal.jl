@@ -1,5 +1,14 @@
 module Unreal
 
-# package code goes here
+export unreal
 
-end # module
+"""
+    unreal(::T) where T <: Real
+
+The unreal part of a real number is zero.
+"""
+function unreal(::T) where T <: Real
+    zero(T)
+end
+
+end

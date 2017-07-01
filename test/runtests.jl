@@ -1,5 +1,8 @@
 using Unreal
-using Base.Test
+using Base.Test: @test
 
-# write your own tests here
-@test 1 == 2
+@test begin
+    l = unreal(1)
+    r = 0
+    l == r
+end
