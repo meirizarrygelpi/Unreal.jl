@@ -5,10 +5,10 @@ export unreal
 """
     unreal(::T) where T <: Real
 
-The unreal part of a real number is zero.
+The unreal part of a real number is an empty array.
 """
 function unreal(::T) where T <: Real
-    zero(T)
+    T[]
 end
 
 end

@@ -2,4 +2,4 @@
 
 [![Build Status](https://travis-ci.org/meirizarrygelpi/Unreal.jl.svg?branch=master)](https://travis-ci.org/meirizarrygelpi/Unreal.jl) [![Build status](https://ci.appveyor.com/api/projects/status/cjugax4vjhb5c08r?svg=true)](https://ci.appveyor.com/project/meirizarrygelpi/unreal-jl) [![Coverage Status](https://coveralls.io/repos/github/meirizarrygelpi/Unreal.jl/badge.svg?branch=master)](https://coveralls.io/github/meirizarrygelpi/Unreal.jl?branch=master) [![codecov.io](http://codecov.io/github/meirizarrygelpi/Unreal.jl/coverage.svg?branch=master)](http://codecov.io/github/meirizarrygelpi/Unreal.jl?branch=master)
 
-This module contains a single function, `unreal`, that is exported and overloaded by other modules. The function `unreal` returns the unreal part of a `Number`, be it a `Real`, a Cayley-Dickson construct, or a plexification. The unreal part of a real number is zero.
+This module contains a single function, `unreal`, that is exported and overloaded by other modules. The function `unreal` returns the unreal part of a `Number`, be it a `Real`, a Cayley-Dickson construct, or a plexification. The unreal part of a real number is an empty array.
